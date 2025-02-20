@@ -1,0 +1,170 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Space Grotesk", serif;
+}
+h1{
+    font-family: "Michroma", serif;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+    color: #ffffff;
+    font-size: 20px;
+}
+.navbar-nav.me-auto{
+    margin-left: auto!important;
+    margin-right: 0px !important;
+}
+.space-left-right{
+    padding: 0px 50px;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+    font-size: 20px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 52px 30px;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+}
+.contact-button-header{
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+.navbar-expand-md .navbar-nav{
+    
+}
+.navbar-expand-md .navbar-nav .nav-link:hover:before{
+    content: "";
+    height: 5px;
+    border-radius: 20px;
+    background-color: #E3B648;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.spaceleft-right{
+    padding: 0px 60px;
+}
+header{
+    background-color: #000000;
+}
+.btn{
+    background-color: #E2B64B;
+    color: #000000;
+    font-weight: 500;
+    border-radius: 100px;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 20px 30px;
+}
+.btn:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+.navbar{
+    padding: 0px;
+    position: relative;
+}
+.btn.btn-lg.mainbutton{
+    margin-left: 25px;
+}
+.navbar-expand-md .navbar-nav li{
+    height: 100%;
+}
+.banner-section-wrapper{
+    background-image: url("../images/banner-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 950px;
+}
+.banner-section-wrapper h1{
+    color: #E3B648;
+    font-size: 120px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+}
+.banner-section-wrapper h4{
+    color: #ffffff;
+    text-align: center;
+    font-size: 46px;
+    font-family: "Michroma", serif;
+}
+.banner-footer{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px 0px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: auto;
+}
+.banner-footer-text p{
+    font-size: 16px;
+    line-height: 18px;
+    color: #F2F2F2;
+    margin: 0px;
+}
+.banner-footer-info p{
+    font-size: 16px;
+    color: #F2F2F2;
+    margin: 0px;
+}
+.banner-footer-text h3{
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 38px;
+    font-family: "Michroma", serif;
+    margin-bottom: 15px;
+}
+.banner-footer-info h6{
+    color: #ffffff;
+    font-family: "Michroma", serif;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.banner-footer-text{
+    border-right: 1px solid #ffffff;
+    min-height: 90px;
+}
+.banner-section-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-footer .col-lg-6 {
+    display: flex;
+    align-items: center;
+}
+.banner-footer-button{
+    flex-shrink: 0;
+}
+.banner-footer-button .btn{
+    padding: 15px 25px;
+}
+@media only screen and (min-width:1920px){
+
+    .container-fluid {
+        width: 1720px;
+    }
+    .banner-section-wrapper h1{
+        font-size: 150px;
+    }
+    .banner-section-wrapper h4{
+        font-size: 56px;
+    }
+}
+@media only screen and (max-width:1440px)
+@media only screen and (max-width:1199px)
+@media only screen and (max-width:1024px)
+@media only screen and (max-width:991px)
+@media only screen and (max-width:767px)
+@media only screen and (max-width:575px)
