@@ -33,9 +33,6 @@ h1{
     display: inline-flex;
     align-items: center;
 }
-.navbar-expand-md .navbar-nav{
-    
-}
 .navbar-expand-md .navbar-nav .nav-link:hover:before{
     content: "";
     height: 5px;
@@ -150,6 +147,30 @@ header{
 .banner-footer-button .btn{
     padding: 15px 25px;
 }
+.marque-section-wrapper ul li{
+    list-style: none;
+    font-family: "Michroma", serif;
+    font-size: 48px;
+    line-height: 50px;
+    color: #E3B648;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-right: 80px;
+}
+.marque-section-wrapper ul li i{
+    margin-right: 20px;
+}
+.marque-section-wrapper ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    margin: 0px;
+}
+.marque-section-wrapper{
+    border-top: 2px solid #E3B648;
+    border-bottom: 2px solid #E3B648;
+}
 @media only screen and (min-width:1920px){
 
     .container-fluid {
@@ -162,9 +183,9 @@ header{
         font-size: 56px;
     }
 }
-@media only screen and (max-width:1440px)
-@media only screen and (max-width:1199px)
-@media only screen and (max-width:1024px)
-@media only screen and (max-width:991px)
-@media only screen and (max-width:767px)
-@media only screen and (max-width:575px)
+@media only screen and (max-width:1440px){}
+@media only screen and (max-width:1199px){}
+@media only screen and (max-width:1024px){}
+@media only screen and (max-width:991px){}
+@media only screen and (max-width:767px){}
+@media only screen and (max-width:575px){}
