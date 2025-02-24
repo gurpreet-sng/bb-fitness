@@ -247,6 +247,9 @@ header{
 .space-top-bottom-100{
     padding: 100px 0px;
 }
+.space-top-100{
+    padding-top: 100px;
+}
 .club-environments-section .owl-carousel .owl-dots.disabled,.club-environments-section .owl-carousel .owl-nav.disabled{
     display: block;
 }
@@ -484,6 +487,69 @@ ul.list-style li{
     font-size: 12px;
     line-height: 12px;
     padding: 8px 20px;
+}
+.video-trainers-section-wrapper{
+    position: relative;
+}
+.video-trainers-section-wrapper:before{
+    content: "";
+    background-color:#1D1D1D;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    z-index: -1;
+}
+.video-trainers-section-wrapper .section-title h2{
+    color: #E3B648;
+}
+.video-trainers-section-wrapper .section-title span{
+    background-color: #ffffff;
+}
+.testimonial-box i{
+    width: 51px;
+    height: 38px;
+    display: inline-block;
+    position: absolute;
+    top: -20px;
+}
+.testimonial-box{
+    background-color: #F2F2F2;
+    padding: 40px;
+    position: relative;
+}
+.testimonail-section-wrapper .owl-stage-outer{
+    padding: 25px 0px 0px;
+}
+.testimonail-section-wrapper .testimonial-box hr{
+    width: 66px;
+}
+.testimonail-section-wrapper .testimonial-box h6{
+    font-size: 20px;
+    color: #141414;
+    font-family: "Michroma", serif;
+}
+.testimonail-section-wrapper .testimonial-box span{
+    color: #656565;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.popular-plans-section{
+    background-image: url("../images/popular-plans.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.space-bottom-100{
+    padding-bottom: 100px;
+}
+.popular-plans-section .section-title h2{
+    color:#E3B648;
+}   
+.popular-plans-section .section-title span{
+    background-color: #ffffff;
 }
 @media only screen and (min-width:1920px){
 
