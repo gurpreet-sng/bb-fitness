@@ -220,7 +220,7 @@
 
     <div class="overall-strength-movement-section">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="section-title">
                         <span>About Us</span>
@@ -237,7 +237,17 @@
                     <a class="btn" href="#" role="button">Join Now</a>
                 </div>
                 <div class="col-lg-6">
-                    
+                    <div class="owl-two owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="bnn-img"><img src="images/overall.jpg"></div>
+                        </div>
+                        <div class="item">
+                            <div class="bnn-img"><img src="images/overall.jpg"></div>
+                        </div>
+                        <div class="item">
+                            <div class="bnn-img"><img src="images/overall.jpg"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -275,6 +285,17 @@
                     autoplay:true,
                     autoplayTimeout:2000,
                     autoplayHoverPause:true,
+                });
+
+                $('.owl-two').owlCarousel({
+                    items:1,
+                    loop:true,
+                    margin:10,
+                    nav:false,
+                    dots:true,
+                    autoplay:true,
+                    autoplayTimeout:2000,
+                    autoplayHoverPause:true
                 });
                 
                 $('.play').on('click',function(){

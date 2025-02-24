@@ -178,7 +178,7 @@ header{
     overflow: hidden;
     white-space: nowrap;
     position: relative;
-    background: #f4f4f4;
+    background: #ffffff;
     padding: 40px 0;
 }
 
@@ -286,7 +286,7 @@ header{
     width: 12px;
     height: 20px;
 }
-.club-environments-section .owl-carousel .owl-dots span{
+.club-environments-section .owl-carousel .owl-dots span, .overall-strength-movement-section .owl-carousel .owl-dots span{
     width: 10px;
     height: 10px;
     background-color: #9C9C9C;
@@ -294,13 +294,15 @@ header{
     border-radius: 10px;
     margin: 0px 3px;
 }
-.club-environments-section .owl-carousel .owl-dots{
+
+.club-environments-section .owl-carousel .owl-dots, .overall-strength-movement-section .owl-carousel .owl-dots{
     text-align: center;
     margin-top: 20px;
 }
-.club-environments-section .owl-carousel .owl-dot.active span{
+.club-environments-section .owl-carousel .owl-dot.active span ,.overall-strength-movement-section .owl-carousel .owl-dot.active span{
     background-color: #E3B648;
 }
+.overall-strength-movement-section .owl-carousel .owl-dots span
 .club-environments-section a{
     background-color: #ffffff;
     padding: 5px 10px;
@@ -323,8 +325,17 @@ header{
 .club-environments-section .owl-carousel .item:hover .club-environments-content p{
     display: block;
 }
-.club-environments-section .owl-carousel .item:hover a{
+.club-environments-section .owl-carousel .item a.btn{
+    background:#ffffff;
+}
+.club-environments-section .owl-carousel .item:hover a.btn{
     display: inline-block;
+    background:#ffffff;
+    color: #000000;
+}
+.club-environments-section .owl-carousel .item a.btn:hover{
+    background:#000000;
+    color: #ffffff;
 }
 .club-environments-section .owl-carousel .item{
     position: relative;
@@ -365,8 +376,13 @@ header{
     margin: 0px;
     padding: 0px;
 }
-.list-style ul li::marker{
-    color: #E3B648;    
+ul.list-style li::marker{
+    color: #E3B648 !important;
+}
+ul.list-style li{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
 }
 
 @media only screen and (min-width:1920px){
