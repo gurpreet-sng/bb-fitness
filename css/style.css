@@ -53,6 +53,8 @@ header{
 }
 .btn{
     background-color: #E2B64B;
+    background: rgb(252,158,8);
+    background: linear-gradient(177deg, rgba(252,158,8,1) 0%, rgba(227,182,72,1) 100%);
     color: #000000;
     font-weight: 500;
     border-radius: 100px;
@@ -349,9 +351,24 @@ header{
     line-height: 28px;
     padding-bottom: 0px;
 }
-.overall-strength-movement-section{
-    
+.overall-strength-movement-section .btn{
+    color: #ffffff;
+    padding: 14px 40px;
+    font-size: 16px;
+    width: 221px;
+    margin-top: 20px;
 }
+.overall-strength-movement-section .section-title{
+    text-align: left;
+}
+.list-style ul{
+    margin: 0px;
+    padding: 0px;
+}
+.list-style ul li::marker{
+    color: #E3B648;    
+}
+
 @media only screen and (min-width:1920px){
 
     .container-fluid {
