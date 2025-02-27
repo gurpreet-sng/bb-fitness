@@ -729,7 +729,7 @@ ul.plan-list-style li i{
 }
 @media only screen and (min-width:1920px){
 
-    .container-fluid {
+    .container-fluid{
         width: 1720px;
     }
     .banner-section-wrapper h1{
@@ -748,9 +748,197 @@ ul.plan-list-style li i{
 }
 
 
-@media only screen and (max-width:1440px){}
-@media only screen and (max-width:1199px){}
-@media only screen and (max-width:1024px){}
-@media only screen and (max-width:991px){}
-@media only screen and (max-width:767px){}
-@media only screen and (max-width:575px){}
+@media only screen and (max-width:1440px){
+
+    .spaceleft-right{
+        padding: 0px 15px;
+    }
+}
+@media only screen and (max-width:1199px){
+
+    .navbar-expand-md .navbar-nav .nav-link{
+        font-size: 18px;
+        padding: 40px 15px;
+        text-align: center;
+    }
+    .banner-section-wrapper{
+        min-height: 700px;
+    }
+    .banner-section-wrapper h1{
+        font-size: 100px;
+    }
+    .banner-footer-text h3{
+        font-size: 33px;
+    }
+    .banner-footer-info h6{
+        font-size: 16px;
+    }
+    .banner-footer-info{
+        padding-right: 10px;
+    }
+    .plan-box h2{
+        font-size: 32px;
+    }
+    .plan-box .btn{
+        padding: 14px 15px;
+    }
+    ul.plan-list-style li p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .club-environments-section .owl-carousel .owl-nav button.owl-prev{
+        right: 0px;
+    }
+    .club-environments-section .owl-carousel .owl-nav button.owl-next{
+        left: 0px;
+    }
+}
+@media only screen and (max-width:1024px){
+
+    .navbar-brand{
+        width: 250px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .btn.btn-lg.mainbutton{
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+    .banner-section-wrapper h4{
+        font-size: 36px;
+    }
+    .banner-section-wrapper h1{
+        font-size: 80px;
+    }
+}
+@media only screen and (max-width:991px){
+
+    .nav-item.contact-button-header{
+        display: none;
+    }
+    .navbar-brand {
+        width: 200px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link{
+        padding: 30px 15px;
+    }
+    .banner-footer .col-lg-6.col-md-12{
+        margin-top: 30px;
+    }
+    .banner-footer-text.unit-of-sports{
+        border-right: 0px;
+    }
+    .banner-footer-text h3{
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .section-title h2{
+        font-size: 40px;
+    }
+    .club-environments-content{
+        padding: 10px;
+    }
+    .club-environments-content h5{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .space-top-bottom-100 {
+        padding: 70px 0px;
+    }
+    .accordian-section-wrapper .accordion-button{
+        font-size: 38px;
+    }
+    .overall-strength-movement-section .owl-two{
+        margin-top: 40px;
+    }
+    .plan-box{
+        margin-bottom: 30px;
+    }
+    .black-footer-social .social-icons{
+        text-align: left;
+    }
+    .copyright-text{
+        position: static;
+        text-align: left;
+        margin-top: 20px;
+    }
+    .footer-links ul.list-style {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+    }
+    ul.list-style li{
+        margin-right: 40px;
+    }
+    .marquee-container ul li{
+        font-size: 38px;
+    }
+}
+@media only screen and (max-width:767px){
+
+    .navbar .align-items-stretch{
+        align-items: center !important;
+    }
+    .navbar-toggler{
+    background-color: #E2B64B;
+    background: rgb(252,158,8);
+    background: linear-gradient(177deg, rgba(252,158,8,1) 0%, rgba(227,182,72,1) 100%);
+    color: #000000;
+    font-weight: 500;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding: 10px 15px;
+    }
+    .banner-section-wrapper{
+        flex-direction: column;
+    }
+    .banner-section-wrapper h1{
+        font-size: 60px;
+    }
+    .banner-section-wrapper h4{
+        font-size: 26px;
+    }
+    .marquee-container ul li{
+        font-size: 28px;
+    }
+    .marquee-container{
+        padding: 25px 0px;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    .accordion-img{
+        margin-bottom: 20px;
+    }
+    .accordian-section-wrapper .accordion-button {
+        font-size: 30px;
+    }
+    .popular-plans-section .nav.nav-tabs .nav-item .nav-link{
+        margin-bottom: 20px;
+    }
+    .power-and-dynamic-footer{
+        margin-top: 20px;
+        padding: 0px 20px;
+    }
+    .footer-secton-wrapper.space-top-100{
+        padding-top: 50px;
+    }
+    .footer-title-description h3{
+        font-size: 23px;
+    }
+    .footer-title-description {
+        margin-bottom: 40px;
+    }
+    .footer-title-description.footer-social-icons {
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width:575px){
+
+    .banner-footer{
+        position: static;
+    }
+    
+}

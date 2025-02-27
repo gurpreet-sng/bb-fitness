@@ -20,7 +20,7 @@
         <div class="spaceleft-right">
             <nav class="navbar navbar-expand-md navbar-dark">
                 <div class="container-fluid align-items-stretch">
-                    <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+                    <a class="navbar-brand" href="#"><img class="img-fluid" src="images/logo.png"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -64,25 +64,25 @@
         <div class="banner-footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-2">
+                    <div class="col-lg-2 col-md-4 col-4">
                         <div class="banner-footer-text">
                             <h3>30k</h3>
                             <p>Square feet club area</p>
                         </div>
                     </div>
-                    <div class="col-lg-2">
+                    <div class="col-lg-2 col-md-4 col-4">
                         <div class="banner-footer-text">
                             <h3>20+</h3>
                             <p>Certified trainers</p>
                         </div>
                     </div>
-                    <div class="col-lg-2">
-                        <div class="banner-footer-text">
+                    <div class="col-lg-2 col-md-4 col-4">
+                        <div class="banner-footer-text unit-of-sports">
                             <h3>15k+</h3>
                             <p>Units of sport equipment</p>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-12">
                         <div class="banner-footer-info">
                             <h6>BB Fitness Membership Sale:</h6>
                             <p>No Initiation Fee - Rs.0 for New Members! Explore Membership Prices and Sign Up Today. Offer Ends Soon!</p>
@@ -897,7 +897,7 @@
     <div class="black-color-footer space-top-100 space-bottom-50">
         <div class="container">
             <div class="row">
-                <div class="col-md-5">
+                <div class="col-lg-5">
                     <div class="footer-logo"><img src="images/logo.png" class="img-fluid"></div>
                     <div class="footer-links">
                         <ul class="list-style">
@@ -907,7 +907,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-7">
+                <div class="col-lg-7">
                     <div class="black-footer-social">
                         <ul class="social-icons">
                             <li><a href="#"><i class="bi bi-facebook"></i></a></li>
@@ -953,6 +953,22 @@
                     autoplay:true,
                     autoplayTimeout:2000,
                     autoplayHoverPause:true,
+                    responsiveClass:true,
+    responsive:{
+        0:{
+            items:2,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:4,
+            nav:true,
+            loop:false
+        }
+    }
                 });
 
                 $('.owl-two').owlCarousel({
@@ -975,6 +991,23 @@
                     autoplay:true,
                     autoplayTimeout:2000,
                     autoplayHoverPause:true,
+
+                    responsiveClass:true,
+    responsive:{
+        0:{
+            items:2,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:4,
+            nav:true,
+            loop:false
+        }
+    }
                 });
 
                 $('.owl-four').owlCarousel({
