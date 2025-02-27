@@ -22,7 +22,7 @@ h1{
     line-height: 26px;
     font-style: normal;
     font-weight: 400;
-    padding: 52px 30px;
+    padding: 52px 28px;
     height: 100%;
     display: inline-flex;
     align-items: center;
@@ -61,6 +61,7 @@ header{
     font-size: 18px;
     line-height: 18px;
     padding: 20px 30px;
+    letter-spacing: 1px;
 }
 .btn:hover{
     background-color: #ffffff;
@@ -551,6 +552,181 @@ ul.list-style li{
 .popular-plans-section .section-title span{
     background-color: #ffffff;
 }
+.popular-plans-section .nav.nav-tabs{
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.popular-plans-section .nav.nav-tabs .nav-item .nav-link{
+   text-transform: uppercase; 
+   color: #ffff;
+   background: transparent;
+   border: 0px;
+}
+.popular-plans-section .nav.nav-tabs .nav-item .nav-link.active{
+    color: #E3B648;
+    border-bottom: 3px solid #E3B648;
+}
+.plan-box{
+    border-radius: 4px;
+    border: 1px solid #3e3e3e;
+    background-color:rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    padding: 40px 20px 20px;
+}
+.plan-box h6{
+    color: #9C9C9C;
+    font-size: 18px;
+    font-family: "Michroma", serif;
+    text-transform: uppercase;
+}
+.plan-box h2{
+    color: #FFFFFF;
+    font-family: "Michroma", serif;
+    font-size: 44px;
+    margin: 12px 0px;
+}
+.plan-box span{
+    color: #E3B648;
+    font-size: 12px;
+    display: block;
+}
+.plan-box .btn{
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 14px 20px;
+    width: 100%;
+    margin: 20px 0px;
+}
+ul.plan-list-style{
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+ul.plan-list-style li{
+    list-style: none;
+    color: #ffffff;
+    display: flex;
+}
+ul.plan-list-style li p{
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 12px;
+}
+ul.plan-list-style li i{
+    color: #E3B648;
+    margin-right: 10px;
+}
+.additional{
+    color: #fff;
+    text-align: left;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+.power-and-dynamic-footer{
+    text-align: center;
+    margin-top: 60px;
+}
+.power-and-dynamic-footer .btn{
+    padding: 15px 40px;
+    color: #ffffff;
+}
+.power-and-dynamic-footer .btn{
+    padding: 13px 80px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.footer-title-description h3{
+    color: #E3B648;
+    font-family: "Michroma", serif;
+    font-size: 26px;
+}
+.footer-title-description a,.footer-title-description h6,.footer-title-description p{
+    color: #303030;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0px;
+    text-decoration: none;
+}
+.footer-title-description{
+    margin-bottom: 60px;
+}
+.footer-title-description ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+.footer-title-description ul{
+    margin: 0px;
+    padding: 0px;
+}
+.social-icons li a{
+    font-size: 22px;
+}
+.footer-title-description .social-icons{
+    margin-top: 15px;
+}
+.footer-social-icons h6{
+    text-decoration: underline;
+}
+.footer-title-description.footer-social-icons{
+    margin-bottom: 0px;
+}
+.map-wrapper iframe{ 
+    width: 100%;
+    height: 100%;
+}
+.map-wrapper{
+    height: 100%;
+}
+.black-color-footer{
+    background-color: #1D1D1D;
+    position: relative;
+}
+.footer-links ul.list-style li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer-links ul.list-style{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.footer-logo{
+    margin-bottom: 60px;
+}
+.black-footer-social .social-icons{
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+}
+.black-footer-social .social-icons li a i{
+    color: #E3B648;
+}
+.black-footer-social .social-icons li{
+    display: inline-block;
+    margin-right: 30px;
+}
+.copyright-text{
+    color: #ffffff;
+    font-size: 12px;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.black-color-footer .col-md-7{
+    position: relative;
+}
+.space-bottom-50{
+    padding-bottom: 50px;
+}
 @media only screen and (min-width:1920px){
 
     .container-fluid {
@@ -563,6 +739,15 @@ ul.list-style li{
         font-size: 56px;
     }
 }
+
+.fusion-body .fusion-wrapper #main .tribe-events .datepicker .table-condensed .day{
+    color: #000000 !important;
+}
+.fusion-body .fusion-wrapper #main .tribe-events .datepicker .table-condensed .active.day{
+    color: #ffffff !important;
+}
+
+
 @media only screen and (max-width:1440px){}
 @media only screen and (max-width:1199px){}
 @media only screen and (max-width:1024px){}
