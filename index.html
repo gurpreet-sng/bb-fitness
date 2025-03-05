@@ -823,7 +823,14 @@
             </div>
         </div>
         <div class="feeds-section">
-           <img class="img-fluid" src="images/feed.jpg">
+            <div class="owl-five owl-carousel owl-theme">
+                <div class="item"><img src="images/insta1.jpg" class="img-fluid"></div>
+                <div class="item"><img src="images/insta2.jpg" class="img-fluid"></div>
+                <div class="item"><img src="images/insta3.jpg" class="img-fluid"></div>
+                <div class="item"><img src="images/insta4.jpg" class="img-fluid"></div>
+                <div class="item"><img src="images/insta5.jpg" class="img-fluid"></div>
+                <div class="item"><img src="images/insta6.jpg" class="img-fluid"></div>
+            </div>
         </div>
 
 <!--footer-->
@@ -928,11 +935,28 @@
                     autoplayTimeout:2000,
                     autoplayHoverPause:true,
                     responsiveClass:true,
-    responsive:{
-        575:{
-            items:2
-        }
-    }
+                    responsive:{
+                        575:{
+                            items:2
+                        }
+                    }
+                });
+
+                $('.owl-five').owlCarousel({
+                    items:3,
+                    loop:true,
+                    margin:0,
+                    nav:true,
+                    dots: true,
+                    autoplay:true,
+                    autoplayTimeout:2000,
+                    autoplayHoverPause:true,
+                    responsiveClass:true,
+                    responsive:{
+                        575:{
+                            items:6
+                        }
+                    }
                 });
                 
                 $('.play').on('click',function(){
