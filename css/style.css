@@ -688,10 +688,15 @@ ul.plan-list-style li i{
 .black-color-footer{
     background-color: #1D1D1D;
     position: relative;
+    background-image: url("../images/footer-bg.jpg");
+    background-size: cover;
 }
 .footer-links ul.list-style li a{
     text-decoration: none;
     color: #ffffff;
+}
+.footer-links ul.list-style li a:hover{
+    color: #E3B648;
 }
 .footer-links ul.list-style{
     display: flex;
@@ -727,6 +732,12 @@ ul.plan-list-style li i{
 .space-bottom-50{
     padding-bottom: 50px;
 }
+.black-footer-social-wrapper{
+    position: relative;
+}
+.feeds-section{
+    text-align: center;
+}
 @media only screen and (min-width:1920px){
 
     .container-fluid{
@@ -739,23 +750,23 @@ ul.plan-list-style li i{
         font-size: 56px;
     }
 }
-
-.fusion-body .fusion-wrapper #main .tribe-events .datepicker .table-condensed .day{
-    color: #000000 !important;
-}
-.fusion-body .fusion-wrapper #main .tribe-events .datepicker .table-condensed .active.day{
-    color: #ffffff !important;
-}
-
-
 @media only screen and (max-width:1440px){
 
     .spaceleft-right{
         padding: 0px 15px;
     }
+    .club-environments-section .owl-carousel .owl-nav button.owl-prev{
+        right: 0px;
+    }
+    .club-environments-section .owl-carousel .owl-nav button.owl-next{
+        left: 0px;
+    }
 }
 @media only screen and (max-width:1199px){
 
+    .plan-box h6{
+        font-size: 16px;
+    }
     .navbar-expand-md .navbar-nav .nav-link{
         font-size: 18px;
         padding: 40px 15px;
@@ -786,11 +797,9 @@ ul.plan-list-style li i{
         font-size: 14px;
         line-height: 20px;
     }
-    .club-environments-section .owl-carousel .owl-nav button.owl-prev{
-        right: 0px;
-    }
-    .club-environments-section .owl-carousel .owl-nav button.owl-next{
-        left: 0px;
+    .club-environments-content h5{
+        font-size: 18px;
+        line-height: 26px;
     }
 }
 @media only screen and (max-width:1024px){
@@ -815,6 +824,9 @@ ul.plan-list-style li i{
 }
 @media only screen and (max-width:991px){
 
+    .footer-links ul.list-style{
+        padding-left: 15px;
+    }
     .nav-item.contact-button-header{
         display: none;
     }
@@ -838,7 +850,7 @@ ul.plan-list-style li i{
         font-size: 40px;
     }
     .club-environments-content{
-        padding: 10px;
+        padding: 20px 10px;
     }
     .club-environments-content h5{
         font-size: 15px;
@@ -934,11 +946,145 @@ ul.plan-list-style li i{
     .footer-title-description.footer-social-icons {
         margin-bottom: 20px;
     }
+    .overall-strength-movement-section.padding-botom-100{
+        padding-bottom: 60px;
+    }
+    .banner-section-wrapper h1{
+        font-size: 50px;
+    }
+    .video-trainers-section-wrapper .container.space-top-100{
+        padding-top: 50px;
+    }
+    .additional{
+        margin-top: 20px;
+    }
+    .club-environments-content p{
+        margin-bottom: 5px;
+    }
+    .club-environments-content h5{
+        margin-bottom: 5px;
+    }
 }
 @media only screen and (max-width:575px){
 
-    .banner-footer{
-        position: static;
+    .club-environments-section .owl-carousel .owl-nav button.owl-next, .club-environments-section .owl-carousel .owl-nav button.owl-prev {
+        width: 40px;
+        height: 40px;
     }
-    
+    .power-and-dynamic-footer .btn{
+        padding: 13px 20px;
+    }
+    .footer-links ul.list-style{
+        margin-bottom: 20px;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+    .banner-footer-text{
+        min-height: 70px;
+    }
+    .banner-footer-text h3{
+        margin-bottom: 5px;
+    }
+    .banner-footer-text p{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .banner-section-wrapper h4{
+        font-size: 20px;
+    }
+    .banner-footer-text h3{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .black-color-footer.space-top-100.space-bottom-50{
+        padding-top: 60px;
+    }
+    .black-color-footer{
+        text-align: center;
+    }
+    .footer-links ul.list-style{
+        justify-content: center;
+    }
+    .black-footer-social .social-icons{
+        text-align: center;
+    }
+    .copyright-text{
+        text-align: center;
+    }
+    .footer-secton-wrapper .container.space-bottom-100{
+        padding-bottom: 40px;
+    }
+    .banner-section-wrapper h1{
+        font-size: 34px;
+    }
+    .banner-footer .col-lg-6{
+        flex-direction: column;
+    }
+    .banner-footer-info h6{
+        text-align: center;
+    }
+    .banner-footer-info p{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .banner-footer-info p{
+        font-size: 14px;
+    }
+    .banner-section-wrapper{
+        justify-content: flex-start;
+        padding-top: 100px;
+    }
+    .banner-footer-info h6{
+        font-size: 15px;
+    }
+    .banner-section-wrapper{
+        min-height: 620px;
+    }
+    .banner-footer-button .btn{
+        padding: 13px 25px;
+        font-size: 16px;
+    }
+    .marquee-container ul li{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .space-top-bottom-100 {
+        padding: 60px 0px;
+    }
+    .section-title h2 {
+        font-size: 25px;
+    }
+    ul.list-style li{
+        margin-right: 0px;
+    }
+    .accordian-section-wrapper .accordion-button{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .footer-logo{
+        margin-bottom: 20px;
+    }
+    .black-color-footer.space-top-100.space-bottom-50{
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .popular-plans-section .nav.nav-tabs .nav-item .nav-link{
+        margin-bottom: 10px;
+    }
+    .footer-title-description{
+        margin-bottom: 30px;
+    }
+    .footer-title-description h3{
+        font-size: 20px;
+    }
+    .testimonial-box{
+        padding: 35px;
+    }
+    .video-trainers-section-wrapper .video-container{
+        height: 250px;
+    }
+    .navbar-brand{
+        width: 150px;
+    }
 }

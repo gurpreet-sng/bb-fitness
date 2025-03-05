@@ -274,16 +274,16 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 col-6">
                                         <div class="accordion-img"><img src="images/train.jpg" class="img-fluid"></div>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 col-6">
                                         <div class="accordion-img"><img src="images/train.jpg" class="img-fluid"></div>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 col-6">
                                         <div class="accordion-img"><img src="images/train.jpg" class="img-fluid"></div>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 col-6">
                                         <div class="accordion-img"><img src="images/train.jpg" class="img-fluid"></div>
                                     </div>
                                 </div>
@@ -311,16 +311,16 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="row">
-                                            <div class="col-md-3">
+                                            <div class="col-md-3 col-6">
                                                 <div class="accordion-img"><img src="images/train.jpg" class="img-fluid"></div>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-md-3 col-6">
                                                 <div class="accordion-img"><img src="images/train.jpg" class="img-fluid"></div>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-md-3 col-6">
                                                 <div class="accordion-img"><img src="images/train.jpg" class="img-fluid"></div>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-md-3 col-6">
                                                 <div class="accordion-img"><img src="images/train.jpg" class="img-fluid"></div>
                                             </div>
                                         </div>
@@ -348,16 +348,16 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="row">
-                                            <div class="col-md-3">
+                                            <div class="col-md-3 col-6">
                                                 <div class="accordion-img"><img src="images/train.jpg" class="img-fluid"></div>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-md-3 col-6">
                                                 <div class="accordion-img"><img src="images/train.jpg" class="img-fluid"></div>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-md-3 col-6">
                                                 <div class="accordion-img"><img src="images/train.jpg" class="img-fluid"></div>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-md-3 col-6">
                                                 <div class="accordion-img"><img src="images/train.jpg" class="img-fluid"></div>
                                             </div>
                                         </div>
@@ -385,16 +385,16 @@
                                   </div>
                                   <div class="col-lg-6">
                                       <div class="row">
-                                          <div class="col-md-3">
+                                          <div class="col-md-3 col-6">
                                               <div class="accordion-img"><img src="images/train.jpg" class="img-fluid"></div>
                                           </div>
-                                          <div class="col-md-3">
+                                          <div class="col-md-3 col-6">
                                               <div class="accordion-img"><img src="images/train.jpg" class="img-fluid"></div>
                                           </div>
-                                          <div class="col-md-3">
+                                          <div class="col-md-3 col-6">
                                               <div class="accordion-img"><img src="images/train.jpg" class="img-fluid"></div>
                                           </div>
-                                          <div class="col-md-3">
+                                          <div class="col-md-3 col-6">
                                               <div class="accordion-img"><img src="images/train.jpg" class="img-fluid"></div>
                                           </div>
                                       </div>
@@ -907,7 +907,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-7">
+                <div class="col-lg-7 black-footer-social-wrapper">
                     <div class="black-footer-social">
                         <ul class="social-icons">
                             <li><a href="#"><i class="bi bi-facebook"></i></a></li>
@@ -991,11 +991,10 @@
                     autoplay:true,
                     autoplayTimeout:2000,
                     autoplayHoverPause:true,
-
                     responsiveClass:true,
     responsive:{
         0:{
-            items:2,
+            items:1,
             nav:true
         },
         600:{
@@ -1011,7 +1010,7 @@
                 });
 
                 $('.owl-four').owlCarousel({
-                    items:2,
+                    items:1,
                     loop:true,
                     margin:10,
                     nav:true,
@@ -1019,6 +1018,12 @@
                     autoplay:true,
                     autoplayTimeout:2000,
                     autoplayHoverPause:true,
+                    responsiveClass:true,
+    responsive:{
+        575:{
+            items:2
+        }
+    }
                 });
                 
                 $('.play').on('click',function(){
@@ -1060,7 +1065,7 @@
         </script>
     </footer>
 
-
+    
 </body>
 
 </html>
