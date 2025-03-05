@@ -1,3 +1,19 @@
+<div class="feeds-section club-environments-section">
+    <div class="owl-five owl-carousel owl-theme">
+        <div class="item"><img src="images/insta1.jpg" class="img-fluid"></div>
+        <div class="item"><img src="images/insta2.jpg" class="img-fluid"></div>
+        <div class="item"><img src="images/insta3.jpg" class="img-fluid"></div>
+        <div class="item"><img src="images/insta4.jpg" class="img-fluid"></div>
+        <div class="item"><img src="images/insta5.jpg" class="img-fluid"></div>
+        <div class="item"><img src="images/insta6.jpg" class="img-fluid"></div>
+        <div class="item"><img src="images/insta1.jpg" class="img-fluid"></div>
+        <div class="item"><img src="images/insta2.jpg" class="img-fluid"></div>
+        <div class="item"><img src="images/insta3.jpg" class="img-fluid"></div>
+        <div class="item"><img src="images/insta4.jpg" class="img-fluid"></div>
+        <div class="item"><img src="images/insta5.jpg" class="img-fluid"></div>
+        <div class="item"><img src="images/insta6.jpg" class="img-fluid"></div>
+    </div>
+</div>
 <div class="footer-secton-wrapper space-top-100">
     <div class="container space-bottom-100">
         <div class="row">
@@ -61,3 +77,33 @@
         </div>
     </div>
 </div>
+
+<script>
+    $(document).ready(function(){
+
+        $('.owl-five').owlCarousel({
+            items:3,
+            loop:true,
+            margin:0,
+            nav:true,
+            dots: true,
+            autoplay:true,
+            autoplayTimeout:2000,
+            autoplayHoverPause:true,
+            responsiveClass:true,
+            responsive:{
+                575:{
+                    items:6
+                }
+            }
+        });
+        
+        $('.play').on('click',function(){
+            owl.trigger('play.owl.autoplay',[1000])
+        })
+        $('.stop').on('click',function(){
+            owl.trigger('stop.owl.autoplay')
+        })
+    
+      });
+</script>
