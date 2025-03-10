@@ -1029,7 +1029,7 @@ ul.plan-list-style li i{
 
  
  .memversecb{
-    margin-top: -350px;
+    margin-top: -300px;
  }
  .blogbgg4 {
     background-color: #191C23;
@@ -1038,11 +1038,11 @@ ul.plan-list-style li i{
  }
  .secmemberbg {
     background-color: #fff;
-    padding: 40px 30px;
+    padding: 40px 20px;
  }
  .secmemberbg h2 {
     font-family: 'Michroma';
-    font-size: 50px;
+    font-size: 42px;
     text-align: center;
     color: #000;
     font-weight: 700;
@@ -1060,15 +1060,18 @@ ul.plan-list-style li i{
     font-size: 20px;
     font-weight: 700;
     font-family: 'Space Grotesk';
+    margin-right: 5px;
  }
- .secmemberbg p {
+ .secmemberbg p{
     color: #000;
     font-size: 18px;
+    line-height: 24px;
     font-weight: 500;
     font-family: 'Space Grotesk';
+    display: flex;
  }
  .secptagemember {
-    padding: 20px 0px 60px 0px;
+    padding: 20px 0px 30px 0px;
  }
  .secmemberbtn {
     text-align: center;
@@ -1086,13 +1089,17 @@ ul.plan-list-style li i{
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 10px;
+    display: inline-block;
  }
  .secmemberbtn a:hover {
     background-color: #E2B64B;
     background: rgb(252, 158, 8);
     background: linear-gradient(177deg, rgba(252, 158, 8, 1) 0%, rgba(227, 182, 72, 1) 100%);
  }
-
+ .secmemberbg small{
+    margin-bottom: 20px;
+    display: inline-block;
+ }
  
 /* contact us */
 
