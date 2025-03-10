@@ -49,6 +49,7 @@ h1{
     left: 0;
     right: 0;
     margin: auto;
+    z-index: 20;
 }
 .spaceleft-right{
     padding: 0px 60px;
