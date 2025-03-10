@@ -418,6 +418,15 @@ ul.list-style li{
     background: linear-gradient(rgba(227,182,72,.8), rgba(252,158,8,.8)), url("../images/build-muscle.jpg") ;
     background-size: cover;
 }
+.accordian-section-wrapper .accordion-item.personal-training-accordion{
+    background: linear-gradient(rgba(227,182,72,.8), rgba(252,158,8,.8)), url("../images/personal-training.jpg") ;
+}
+.accordian-section-wrapper .accordion-item.crossfit-accordion{
+    background: linear-gradient(rgba(227,182,72,.8), rgba(252,158,8,.8)), url("../images/Cross_fit.jpg") ;
+}
+.accordian-section-wrapper .accordion-item.cardio-accordion{
+    background: linear-gradient(rgba(227,182,72,.8), rgba(252,158,8,.8)), url("../images/cardio-exercise.jpg") ;
+}
 .accordian-section-wrapper .accordion-item .btn{
     color: #000000;
     background: #FFFFFF;
