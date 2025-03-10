@@ -9,7 +9,6 @@ h1{
 .navbar-expand-md .navbar-nav .nav-link{
     color: #ffffff;
     font-size: 20px;
-    text-decoration: none;
 }
 .navbar-nav.me-auto{
     margin-left: auto!important;
@@ -84,7 +83,6 @@ header{
     background-size: cover;
     position: relative;
     min-height: 950px;
-    margin-top: -2px;
 }
 .banner-section-wrapper h1{
     color: #E3B648;
@@ -408,15 +406,13 @@ ul.list-style li{
     background-size: cover;
     transition: all 0.3s ease-in-out 0s;
     padding: 30px 0px;
-    margin-top: -2px;
 }
 .accordian-section-wrapper .accordion-item.accordion-item-open{
     background: linear-gradient(rgba(227,182,72,.8), rgba(252,158,8,.8)), url("../images/build-muscle.jpg");
     background-size: cover;
 }
 .accordian-section-wrapper .accordion-item:hover{
-    background: linear-gradient(rgba(227,182,72,.8), rgba(252,158,8,.8)), url("../images/build-muscle.jpg") ;
-    background-size: cover;
+    background: linear-gradient(rgba(227,182,72,.8), rgba(252,158,8,.8)), url("../images/build-muscle.jpg");
 }
 .accordian-section-wrapper .accordion-item .btn{
     color: #000000;
@@ -746,18 +742,14 @@ ul.plan-list-style li i{
     display:none;
 }
 
- /* about */
- 
- .aboutbg2 {
+.aboutbg2 {
     background-image: url(../images/aboutpagebackground.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
     height: 400px;
-    margin-top: -2px;
- 
- }
- .heaname h2 {
+}
+.heaname h2 {
     font-family: 'Space Grotesk';
     font-size: 70px;
     color: #fff;
@@ -765,393 +757,12 @@ ul.plan-list-style li i{
     font-weight: 900;
     text-align: center;
     padding-top: 80px;
- }
- .marrabout {
-    background-color: #030303;
-    padding: 0px 100px 60px 100px;
-    margin-top: -10px;
- }
- .secabouttext h3 {
-    font-family: 'Michroma';
-    font-size: 25px;
-    color: #fff;
-    text-transform: uppercase;
- }
- .secabouttext p {
-    color: #fff;
-    font-family: "Space Grotesk";
-    font-size: 20px;
- }
- .secvisbgg {
-    background-color: #25201B;
-    padding: 50px 100px;
-    margin-top: -3px;
- }
- .secvisintext {
-    font-family: 'Michroma';
-    font-size: 60px;
-    color: #fff;
-    font-weight: 700;
- }
- .secvisintext2 {
-    color: #fff;
-    font-family: "Space Grotesk";
-    font-size: 20px;
- }
- .foundd-bgg {
-    background-color: #000;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 60px 100px;
- }
- .foundd-bgg2{
-    background-image: url(../images/Founderbg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 60px 0px;
- }
- .flodbackmargin {
-    background: #000;
-    padding: 40px;
-    margin-left: -100px !important;
-    margin: 60px 40px 40px 40px;
- }
- 
-  .feedback-slider-item:after {
-    content: '';
-    position: absolute;
-    background-image: url(../images/Testimonials.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 1150px;
-    left: 20px;
-    right: 20px;
-    bottom: 0;
-    top: 345px;
-    z-index: -1;
-  }
-  
-  .thumb-prev,
-  .thumb-next {
-    position: absolute;
-    z-index: 99;
-    top: 45%;
-    width: 98px;
-    height: 98px;
-    left: -90px;
-    cursor: pointer;
-    -webkit-transition: all .3s;
-    transition: all .3s;
-  }
-  
-  .thumb-next {
-    left: auto;
-    right: -90px;
-  }
-  
-  .feedback-slider-thumb img {
-    width: 100%;
-  }
-  
-  .feedback-slider-thumb:hover {
-    opacity: .8;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-  }
-  
-  .customer-feedback .owl-nav [class*="owl-"] {
-    position: relative;
-    display: inline-block;
-    bottom: 45px;
-    transition: all .2s ease-in;
-  }
-  
-  .customer-feedback .owl-nav i {
-    background-color: transparent;
-    color: rgb(251, 90, 13);
-    font-size: 25px;
-  }
-  
-  .customer-feedback .owl-prev {
-    left: -15px;
-  }
-  
-  .customer-feedback .owl-prev:hover {
-    left: -20px;
-  }
-  
-  .customer-feedback .owl-next {
-    right: -15px;
-  }
-  
-  .customer-feedback .owl-next:hover {
-    right: -20px;
-  }
-  .navbar {
-    margin: 0;
-} 
-
-/* Gallery Styles */
-.gallery_container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 80px 10px;
- }
- 
- 
- .gallery_item {
-    margin-bottom: 5px;
-    overflow: hidden;
- }
- 
- .popup-gallery a {
-    display: block;
-    width: 100%;
-    border: 1px solid #fff;
-    overflow: hidden;
-    transition: transform 0.3s ease, border-color 0.3s ease;
- }
- 
- .popup-gallery a:hover {
-    transform: scale(1.05);
-    border-color: #fff;
- }
- 
- .popup-gallery img {
-    display: block;
-    width: 100%;
-    object-fit: cover;
-    min-height: 250px;
-    max-height: 250px;
- }
- 
- 
- /* END  */
- 
- .singicon_btn_nlf {
-    position: absolute;
-    top: 44%;
-    bottom: 56%;
-    left: 44%;
-    right: 56%;
-    opacity: 0;
- }
- 
- .singicon_btn_nlf svg {
-    color: #fff;
- }
- 
- .popup-gallery a:hover .singicon_btn_nlf {
-    opacity: 1;
- }
- 
- .hover_affect_nlf:hover img {
-    opacity: 0.5;
- }
- 
- 
- /* gallery end */
- .aboutbg23 {
-    background-image: url(../images/aboutpagebackground.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    height: 350px;
-    margin-top: -3px;
-    margin-bottom: -3px;
- 
- }
- .secmemberbg2 {
-    background-image: url(../images/memberbgg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    height: 600px;
-    margin-top: -2px;
- 
- }
- .secmemberbg2w {
-    background-image: url(../images/memberbgg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    height: 400px;
-    margin-top: -2px;
- 
- }
-
-/* member */
-.secmemberpp p {
-    text-align: center;
-    color: #fff;
-    font-family: 'Montserrat';
-    font-size: 20px;
- }
-  
-
- 
- .memversecb{
-    margin-top: -350px;
- }
- .blogbgg4 {
-    background-color: #191C23;
-    padding: 60px;
-    margin-top: -150px;
- }
- .secmemberbg {
-    background-color: #fff;
-    padding: 40px 30px;
- }
- .secmemberbg h2 {
-    font-family: 'Michroma';
-    font-size: 50px;
-    text-align: center;
-    color: #000;
-    font-weight: 700;
- }
- .secmemberbg h4 {
-    color: #F67627;
-    font-size: 20px;
-    font-weight: 700;
-    font-family: 'Space Grotesk';
-    text-align: center;
-    padding-bottom: 10px;
- }
- .secmemberbg p span {
-    color: #F67627;
-    font-size: 20px;
-    font-weight: 700;
-    font-family: 'Space Grotesk';
- }
- .secmemberbg p {
-    color: #000;
-    font-size: 18px;
-    font-weight: 500;
-    font-family: 'Space Grotesk';
- }
- .secptagemember {
-    padding: 20px 0px 60px 0px;
- }
- .secmemberbtn {
-    text-align: center;
-    padding-bottom: 30px;
- }
- .secmemberbtn a {
-    background-color: #E2B64B;
-    background: rgb(252, 158, 8);
-    background: linear-gradient(177deg, rgba(252, 158, 8, 1) 0%, rgba(227, 182, 72, 1) 100%);
-    padding: 15px 30px;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 600;
-    font-family: 'Space Grotesk';
-    text-decoration: none;
-    text-transform: uppercase;
-    border-radius: 10px;
- }
- .secmemberbtn a:hover {
-    background-color: #E2B64B;
-    background: rgb(252, 158, 8);
-    background: linear-gradient(177deg, rgba(252, 158, 8, 1) 0%, rgba(227, 182, 72, 1) 100%);
- }
-
- 
-/* contact us */
-
-
-.secandclass22{
-    background-color: #000;
-    padding-bottom: 50px;
-    padding-top: 40px;
-    margin-top: -2px;
- }
- 
- .sec-cont-hh {
-    font-family: 'Michroma';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    color: #fff;
- }
- .sec-cont-pp {
-    font-family: 'Space Grotesk';
-    font-weight: 400;
-    font-size: 20px;
-    color: #fff;
-    padding-bottom: 20px;
- }
- .form-group label {
-    color: #fff;
- }
- .sec-menu-btn2 {
-    background-color: #E2B64B;
-    background: rgb(252, 158, 8);
-    background: linear-gradient(177deg, rgba(252, 158, 8, 1) 0%, rgba(227, 182, 72, 1) 100%);
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 24px;
-    color: #fff;
-    padding: 15px 30px;
-    border: none;
- }
- .sec-menu-btn2:hover {
-    background-color: #E2B64B;
-    background: rgb(252, 158, 8);
-    background: linear-gradient(177deg, rgba(252, 158, 8, 1) 0%, rgba(227, 182, 72, 1) 100%);
-    color: #fff;
- }
- .contbgg {
-    background: #fff;
-    padding: 20px;
- }
- .seccont-add-h {
-    font-family: 'Space Grotesk';
-    font-size: 20px;
-    line-height: 150%;
-    font-weight: 700;
-    color: #000000;
- }
- .seccont-add-h span i {
-    color: #E2B64B;
- }
- .seccont-add-p {
-    font-family: 'Space Grotesk';
-    font-weight: 400;
-    font-size: 18px;
-    color: #000000;
-    text-decoration: none;
- }
- .iconsc span i {
-    color: #E2B64B;
- }
- .sec-cont-hh2 {
-    font-family: 'Michroma';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    color: #000;
- }
- .secmobileenjoy {
-    display: none;
- }
- .ffgggcc {
-    padding: 0;
- }
- .ffgggcc2{
-    padding-right: 0px;
- }
+}
 @media only screen and (min-width:1920px){
 
-    .container-fluid {
-        width: 1905px;
-        margin: auto;
-      }
-      .secmemberbg2w {
-        background-position: top;
-        height: 267px;
-      }
+    .container-fluid{
+        width: 1720px;
+    }
     .banner-section-wrapper h1{
         font-size: 150px;
     }
@@ -1164,12 +775,12 @@ ul.plan-list-style li i{
     .spaceleft-right{
         padding: 0px 15px;
     }
-    /* .club-environments-section .owl-carousel .owl-nav button.owl-prev{
+    .club-environments-section .owl-carousel .owl-nav button.owl-prev{
         right: 5px;
     }
     .club-environments-section .owl-carousel .owl-nav button.owl-next{
         left: 5px;
-    } */
+    }
 }
 @media only screen and (max-width:1199px){
 
@@ -1296,32 +907,6 @@ ul.plan-list-style li i{
     .marquee-container ul li{
         font-size: 38px;
     }
-    .owl-nav {
-        display: none;
-    }
-    .text-left {
-        padding-bottom: 80px;
-    }
-    .secmemberbg {
-        margin-bottom: 50px;
-    }
-    .owl-nav.disabled {
-        display: none !important;
-    }
-    .secabbdesfl {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .secabouttext {
-        padding-top: 40px;
-    }
-    .marrabout {
-        padding: 0px 60px 60px 60px;
-    
-    }
-    .secvisbgg {
-        padding: 60px 60px;
-    }
 }
 @media only screen and (max-width:767px){
 
@@ -1398,42 +983,6 @@ ul.plan-list-style li i{
     }
     .club-environments-content h5{
         margin-bottom: 5px;
-    }
-    .owl-prev {
-        display: none;
-    }
-    .aboutbg2 {
-        margin-top: -2px;
-    }
-    .marrabout {
-        padding: 40px 10px;
-        margin-top: -112px;
-    }
-    .secabbdesfl {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .secabouttext {
-        padding-top: 20px;
-    }
-    .secvisbgg {
-        padding: 40px 10px;
-    }
-    .secvisintext {
-        font-size: 40px;
-    }
-    .ffgggcc2 {
-        padding-right: 0px;
-        padding-left: 0;
-    }
-    .text-left {
-        padding-bottom: 50px;
-    }
-    .blogbgg4 {
-        padding: 0px;
-    }
-    .secmemberbg {
-        margin-bottom: 30px;
     }
 }
 @media only screen and (max-width:575px){

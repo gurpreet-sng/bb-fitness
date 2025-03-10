@@ -1,6 +1,5 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,17 +14,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="images/logo.png">
 </head>
 <body>
+    <!--header-->
+    <div include-html="header.html"  id="header-file"></div>
 
-    <body>
-
-                <!-- header -->
-                <div class="container-fluid hero-bg p-0">
-                    <div include-html="header.html" id="header-file"></div>
-                </div>
-                <!-- header -->
                 <div class="container-fluid aboutbg2">
         
                     <!-- heading-name -->
@@ -70,55 +63,53 @@
                         wellness and vitality.</p>
                 </div>
             </div>
-
         </div>
 
-      <!-- testimonial -->
-      <div class="testimonail-section-wrapper club-environments-section space-top-bottom-100">
-        <div class="container">
-            <div class="row">
-                <div class="owl-four owl-carousel owl-theme">
-                    <div class="item">
-                        <div class="testimonial-box">
-                            <i><img src="images/comma.png"></i>
-                            <p>Joining BB Fitness has been a game-changer for me. As someone who struggled with motivation and consistency in the past, the supportive community and personalized guidance from the trainers have made all the difference.</p>
-                            <hr>
-                            <h6>Nitika</h6>
-                            <span>Member since 2022</span>
+        <div class="testimonail-section-wrapper club-environments-section space-top-bottom-100">
+            <div class="container">
+                <div class="row">
+                    <div class="owl-four owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="testimonial-box">
+                                <i><img src="images/comma.png"></i>
+                                <p>Joining BB Fitness has been a game-changer for me. As someone who struggled with motivation and consistency in the past, the supportive community and personalized guidance from the trainers have made all the difference.</p>
+                                <hr>
+                                <h6>Nitika</h6>
+                                <span>Member since 2022</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimonial-box">
-                            <i><img src="images/comma.png"></i>
-                            <p>Joining BB Fitness has been a game-changer for me. As someone who struggled with motivation and consistency in the past, the supportive community and personalized guidance from the trainers have made all the difference.</p>
-                            <hr>
-                            <h6>Nitika</h6>
-                            <span>Member since 2022</span>
+                        <div class="item">
+                            <div class="testimonial-box">
+                                <i><img src="images/comma.png"></i>
+                                <p>Joining BB Fitness has been a game-changer for me. As someone who struggled with motivation and consistency in the past, the supportive community and personalized guidance from the trainers have made all the difference.</p>
+                                <hr>
+                                <h6>Nitika</h6>
+                                <span>Member since 2022</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimonial-box">
-                            <i><img src="images/comma.png"></i>
-                            <p>Joining BB Fitness has been a game-changer for me. As someone who struggled with motivation and consistency in the past, the supportive community and personalized guidance from the trainers have made all the difference.</p>
-                            <hr>
-                            <h6>Nitika</h6>
-                            <span>Member since 2022</span>
+                        <div class="item">
+                            <div class="testimonial-box">
+                                <i><img src="images/comma.png"></i>
+                                <p>Joining BB Fitness has been a game-changer for me. As someone who struggled with motivation and consistency in the past, the supportive community and personalized guidance from the trainers have made all the difference.</p>
+                                <hr>
+                                <h6>Nitika</h6>
+                                <span>Member since 2022</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimonial-box">
-                            <i><img src="images/comma.png"></i>
-                            <p>Joining BB Fitness has been a game-changer for me. As someone who struggled with motivation and consistency in the past, the supportive community and personalized guidance from the trainers have made all the difference.</p>
-                            <hr>
-                            <h6>Nitika</h6>
-                            <span>Member since 2022</span>
+                        <div class="item">
+                            <div class="testimonial-box">
+                                <i><img src="images/comma.png"></i>
+                                <p>Joining BB Fitness has been a game-changer for me. As someone who struggled with motivation and consistency in the past, the supportive community and personalized guidance from the trainers have made all the difference.</p>
+                                <hr>
+                                <h6>Nitika</h6>
+                                <span>Member since 2022</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    
+      
 
 
         <!-- footer -->
@@ -138,24 +129,23 @@
 
 
         <script>
-     $('.owl-four').owlCarousel({
-                    items:1,
-                    loop:true,
-                    margin:10,
-                    nav:true,
-                    dots: true,
-                    autoplay:true,
-                    autoplayTimeout:2000,
-                    autoplayHoverPause:true,
-                    responsiveClass:true,
-                    responsive:{
-                        575:{
-                            items:2
-                        }
-                    }
-                });
-                
-              
+   $('.owl-carousel.testimonial').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
         </script>
     </body>
 
