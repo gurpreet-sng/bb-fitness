@@ -419,18 +419,43 @@ ul.list-style li{
     background-size: cover;
 }
 .accordian-section-wrapper .accordion-item:hover{
-    background: linear-gradient(rgba(227,182,72,.8), rgba(252,158,8,.8)), url("../images/build-muscle.jpg") ;
-    background-size: cover;
+    background: linear-gradient(rgba(227,182,72,.8), rgba(252,158,8,.8)), url("../images/build-muscle.jpg");
 }
+
+
 .accordian-section-wrapper .accordion-item.personal-training-accordion{
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("../images/personal-training.jpg");
+}
+.accordian-section-wrapper .accordion-item.personal-training-accordion.accordion-item-open{
     background: linear-gradient(rgba(227,182,72,.8), rgba(252,158,8,.8)), url("../images/personal-training.jpg") ;
 }
+.accordian-section-wrapper .accordion-item.personal-training-accordion:hover{
+    background: linear-gradient(rgba(227,182,72,.8), rgba(252,158,8,.8)), url("../images/personal-training.jpg");
+}
+
+
 .accordian-section-wrapper .accordion-item.crossfit-accordion{
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("../images/Cross_fit.jpg");
+}
+.accordian-section-wrapper .accordion-item.crossfit-accordion.accordion-item-open{
     background: linear-gradient(rgba(227,182,72,.8), rgba(252,158,8,.8)), url("../images/Cross_fit.jpg") ;
 }
+.accordian-section-wrapper .accordion-item.crossfit-accordion:hover{
+    background: linear-gradient(rgba(227,182,72,.8), rgba(252,158,8,.8)), url("../images/Cross_fit.jpg");
+}
+
+
 .accordian-section-wrapper .accordion-item.cardio-accordion{
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("../images/cardio-exercise.jpg");
+}
+.accordian-section-wrapper .accordion-item.cardio-accordion.accordion-item-open{
     background: linear-gradient(rgba(227,182,72,.8), rgba(252,158,8,.8)), url("../images/cardio-exercise.jpg") ;
 }
+.accordian-section-wrapper .accordion-item.cardio-accordion:hover{
+    background: linear-gradient(rgba(227,182,72,.8), rgba(252,158,8,.8)), url("../images/cardio-exercise.jpg");
+}
+
+
 .accordian-section-wrapper .accordion-item .btn{
     color: #000000;
     background: #FFFFFF;
