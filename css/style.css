@@ -6,6 +6,10 @@ body{
 h1{
     font-family: "Michroma", serif;
 }
+.btn-close:focus{
+    outline: 0;
+    box-shadow: none;
+}
 .navbar-expand-md .navbar-nav .nav-link{
     color: #ffffff;
     font-size: 20px;
@@ -1334,6 +1338,25 @@ ul.plan-list-style li i{
 }
 @media only screen and (max-width:767px){
 
+    .offcanvas-title{
+        color: #000000;
+    }
+    .offcanvas-header{
+        background-color: #ffffff;
+    }
+    .offcanvas-body{
+        background-color: #E2B64B;
+        background: rgb(252,158,8);
+        background: linear-gradient(177deg, rgba(252,158,8,1) 0%, rgba(227,182,72,1) 100%);
+        color: #000000;
+    }
+    .navbar-expand-md .navbar-nav .nav-link{
+        color: #000000;
+        font-weight: 500;
+    }
+    .navbar-expand-md .navbar-nav .nav-link:hover{
+        text-decoration: underline;
+    }
     .navbar .align-items-stretch{
         align-items: center !important;
     }
