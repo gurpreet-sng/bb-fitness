@@ -72,6 +72,7 @@ header{
 .btn:hover{
     background-color: #ffffff;
     color: #000000;
+    background: linear-gradient(177deg, rgba(227,182,72,1) 0%,  rgba(252,158,8,1) 0% 100%);
 }
 .navbar{
     padding: 0px;
@@ -1501,10 +1502,13 @@ ul.plan-list-style li i{
     .secmemberbg {
         margin-bottom: 30px;
     }
+
 }
 @media only screen and (max-width:575px){
 
-    
+    .secmemberbg2{
+        height: 500px;
+    }
     .club-environments-section .owl-carousel .owl-nav button.owl-next, .club-environments-section .owl-carousel .owl-nav button.owl-prev {
         width: 40px;
         height: 40px;
