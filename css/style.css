@@ -10,6 +10,10 @@ h1{
     outline: 0;
     box-shadow: none;
 }
+header .container-fluid{
+    max-width: 1720px;
+    margin: auto;
+}
 .navbar-expand-md .navbar-nav .nav-link{
     color: #ffffff;
     font-size: 20px;
@@ -804,7 +808,8 @@ ul.plan-list-style li i{
     text-transform: capitalize;
     font-weight: 900;
     text-align: center;
-    padding-top: 80px;
+    padding: 156px 0px;
+    margin: 0px;
  }
  .marrabout {
     background-color: #030303;
@@ -995,7 +1000,7 @@ ul.plan-list-style li i{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    height: 350px;
+    /*height: 350px;*/
     margin-top: -3px;
     margin-bottom: -3px;
  
@@ -1030,7 +1035,7 @@ ul.plan-list-style li i{
 
  
  .memversecb{
-    margin-top: -300px;
+    margin-top: -245px;
  }
  .blogbgg4 {
     background-color: #191C23;
@@ -1085,6 +1090,7 @@ ul.plan-list-style li i{
     padding: 15px 30px;
     color: #fff;
     font-size: 20px;
+    line-height: 22px;
     font-weight: 600;
     font-family: 'Space Grotesk';
     text-decoration: none;
@@ -1189,6 +1195,34 @@ ul.plan-list-style li i{
  .ffgggcc2{
     padding-right: 0px;
  }
+ .blogbgg4.blogbgg4-price-page .secmemberbtn {
+    padding-bottom: 0px;
+}
+.price-content{
+    min-height: 440px;
+}
+
+.club-environments-section .item {
+    position: relative;
+}
+.bnn-img img{
+    width: 100%;
+}
+.club-environments-section .item:hover .club-environments-content{
+    background-color: #FC9E08;
+    background-color: rgb(252, 158, 8, 0.8);
+    bottom: 0px;
+}
+.club-environments-section .item .club-environments-content{
+    position: absolute;
+    bottom: 0px;
+    transition: all 0.3s ease-in-out 0s;
+    width: 100%;
+}
+.club-environments-section .item:hover .club-environments-content p{
+    display: block;
+}
+
 @media only screen and (min-width:1920px){
 
     /*.container-fluid{
@@ -1198,7 +1232,7 @@ ul.plan-list-style li i{
     */
       .secmemberbg2w {
         background-position: top;
-        height: 267px;
+        /*height: 267px;*/
       }
     .banner-section-wrapper h1{
         font-size: 150px;
@@ -1218,9 +1252,22 @@ ul.plan-list-style li i{
     .club-environments-section .owl-carousel .owl-nav button.owl-next{
         left: 5px;
     } */
+    .secmemberbg h2{
+        font-size: 38px;
+    }
+    .secmemberbg p{
+        font-size: 16px;
+        line-height: 24px;
+    }
 }
 @media only screen and (max-width:1199px){
 
+    .heaname h2{
+        padding: 100px 0px;
+    }
+    .secmemberbg2w{
+        height: auto;
+    }
     .plan-box h6{
         font-size: 16px;
     }
@@ -1258,6 +1305,9 @@ ul.plan-list-style li i{
         font-size: 18px;
         line-height: 26px;
     }
+    .secmemberbg h2{
+        font-size: 30px;
+    }
 }
 @media only screen and (max-width:1024px){
 
@@ -1278,9 +1328,15 @@ ul.plan-list-style li i{
     .banner-section-wrapper h1{
         font-size: 80px;
     }
+    .heaname h2{
+        font-size: 60px;
+    }
 }
 @media only screen and (max-width:991px){
 
+    .price-content {
+        min-height: 400px;
+    }
     .footer-links ul.list-style{
         padding-left: 15px;
     }
@@ -1370,9 +1426,51 @@ ul.plan-list-style li i{
     .secvisbgg {
         padding: 60px 60px;
     }
+    .sec-cont-hh{
+        font-size: 30px;
+    }
 }
 @media only screen and (max-width:767px){
 
+    .nav-item.contact-button-header{
+        display: block;
+    }
+    .btn.btn-lg.mainbutton{
+        margin-left: 10px;
+        margin-top: 20px;
+        background-color: #000000;
+        background: #000000;
+        color: #ffffff;
+        font-size: 18px;
+    }
+    .contbgg{
+        padding: 40px 20px;
+    }
+    .sec-cont-hh{
+        font-size: 25px;
+    }
+    .sec-cont-hh2{
+        font-size: 25px;
+    }
+    .price-content{
+        min-height: auto;
+    }
+    .blogbgg4.blogbgg4-price-page{
+        padding: 60px 0px;
+    }
+    .blogbgg4.blogbgg4-price-page .secmemberbtn{
+        padding-bottom: 0px;
+    }
+    .secmemberbg2{
+        height: auto;
+        margin: 0;
+    }
+    .container-fluid.blogbgg4 .memversecb{
+        margin-top: 0px;
+    }
+    .blogbgg4{
+        margin-top: 0px;
+    }
     .offcanvas-title{
         color: #000000;
     }
@@ -1388,6 +1486,7 @@ ul.plan-list-style li i{
     .navbar-expand-md .navbar-nav .nav-link{
         color: #000000;
         font-weight: 500;
+        font-size: 18px;
     }
     .navbar-expand-md .navbar-nav .nav-link:hover{
         text-decoration: underline;
@@ -1502,13 +1601,23 @@ ul.plan-list-style li i{
     .secmemberbg {
         margin-bottom: 30px;
     }
-
+    .heaname h2{
+        padding: 80px 0px;
+        font-size: 55px;
+    }
 }
 @media only screen and (max-width:575px){
 
-    .secmemberbg2{
-        height: 500px;
+    .gallery_container{
+        padding: 60px 10px;
     }
+    .heaname h2{
+        padding: 70px 0px;
+        font-size: 45px;
+    }
+    /*.secmemberbg2{
+        height: 500px;
+    }*/
     .club-environments-section .owl-carousel .owl-nav button.owl-next, .club-environments-section .owl-carousel .owl-nav button.owl-prev {
         width: 40px;
         height: 40px;
@@ -1630,4 +1739,15 @@ ul.plan-list-style li i{
     .navbar-brand{
         width: 150px;
     }
+}
+
+.post-template-default.single article.post .entry-title{
+    display: block !important;
+    font-family: "Roboto Slab", serif;
+    font-size: 42px;
+    line-height: 52px;
+}
+
+.post-template-default.single .fusion-page-title-captions h1{
+    display: none;
 }
