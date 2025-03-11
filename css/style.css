@@ -1608,6 +1608,10 @@ ul.plan-list-style li i{
 }
 @media only screen and (max-width:575px){
 
+    .banner-section-wrapper .col-lg-12.col-md-12{
+        position: relative;
+        bottom: -100px;
+    }
     .gallery_container{
         padding: 60px 10px;
     }
@@ -1643,7 +1647,7 @@ ul.plan-list-style li i{
         margin-right: 10px;
     }
     .banner-section-wrapper h4{
-        font-size: 20px;
+        font-size: 18px;
     }
     .banner-footer-text h3{
         font-size: 22px;
@@ -1668,7 +1672,7 @@ ul.plan-list-style li i{
         padding-bottom: 40px;
     }
     .banner-section-wrapper h1{
-        font-size: 34px;
+        font-size: 32px;
     }
     .banner-footer .col-lg-6{
         flex-direction: column;
