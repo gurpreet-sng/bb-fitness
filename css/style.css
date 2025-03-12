@@ -1243,6 +1243,12 @@ ul.plan-list-style li i{
 }
 @media only screen and (max-width:1440px){
 
+    .plan-box{
+        height: 550px;
+    }
+    .testimonial-box{
+        height: 300px;
+    }
     .spaceleft-right{
         padding: 0px 15px;
     }
@@ -1334,6 +1340,12 @@ ul.plan-list-style li i{
 }
 @media only screen and (max-width:991px){
 
+    .plan-box{
+        height:auto;
+    }
+    .testimonial-box{
+        height: 375px;
+    }
     .price-content {
         min-height: 400px;
     }
@@ -1432,6 +1444,9 @@ ul.plan-list-style li i{
 }
 @media only screen and (max-width:767px){
 
+    .testimonial-box{
+        height: 500px;
+    }
     .nav-item.contact-button-header{
         display: block;
     }
@@ -1606,8 +1621,14 @@ ul.plan-list-style li i{
         font-size: 55px;
     }
 }
-@media only screen and (max-width:575px){
+@media only screen and (max-width:574px){
 
+    .accordian-section-wrapper .accordion-content {
+        padding-bottom: 30px;
+    }
+    .testimonial-box{
+        height: auto;
+    }
     .banner-section-wrapper .col-lg-12.col-md-12{
         position: relative;
         bottom: -100px;
